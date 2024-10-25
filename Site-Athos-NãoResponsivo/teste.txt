@@ -1,0 +1,29 @@
+    <div class="buttons">
+            <a href="curso/curso.html"><button class="btn">Graduação em Administração</button></a>
+            <a href="curso/curso.html"><button class="btn"></button></a>
+            <a href="curso/curso.html"><button class="btn"></button></a>
+            <a href="curso/curso.html"><button class="btn"></button></a>
+        </div>
+    </div>
+
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 40px 0;
+}
+
+.btn {
+    background-color: var(--cor8);
+    color: var(--cor2);
+    border-radius: 8px;
+    width: 252px;
+    height: 126px;
+    text-align: center;
+    font-size: 29px;
+    cursor: pointer;
+    border-color: transparent;
+    margin-bottom: 15px;
+}

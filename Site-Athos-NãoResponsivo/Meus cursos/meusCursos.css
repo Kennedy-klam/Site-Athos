@@ -1,0 +1,61 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');/* Fonte Nunito */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');/* Fonte Inter */
+
+:root {
+
+    /* -------------------------------------------------------------Paleta de cores------------------------------------------------------------- */
+    --cor1: #ffffff;
+    --cor2: #F7F7F7;
+    --cor3: #E6EDE7;
+    --cor4: #D9D9D9;
+    --cor5: #828282;
+    --cor6: #454545;
+    --cor7: #000000;
+    --cor8: #00A80D;
+    /* -------------------------------------------------------------Paleta de cores------------------------------------------------------------- */    
+
+}
+
+/* -------------------------------------------------------------Cursos da Athos------------------------------------------------------------ */
+
+.parceiros {
+    width: 1440px;
+    margin: auto;
+    text-align: center;
+    background-color: var(--cor3);
+}
+
+h1 {
+    color: var(--cor8);
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: var(--cor5);
+    line-height: 1.6;
+    font-size: 27px;
+    margin-bottom: 35px;
+}
+
+.buttons-par{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.buttons-par button{
+    background-color: var(--cor4);
+    border-radius: 8px;
+    padding: 16px;
+    width: 252px;
+    height: 126px;
+    text-align: center;
+    font-size: 29px;
+    cursor: pointer;
+    border-color: transparent;
+    margin-bottom: 69px;
+}
+
+/* -------------------------------------------------------------Cursos da Athos------------------------------------------------------------ */

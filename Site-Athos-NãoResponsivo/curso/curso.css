@@ -1,0 +1,217 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --cor1: #ffffff;
+    --cor2: #F7F7F7;
+    --cor3: #E6EDE7;
+    --cor4: #D9D9D9;
+    --cor5: #828282;
+    --cor6: #454545;
+    --cor7: #000000;
+    --cor8: #00A80D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+/*-----------Slider------------*/
+.slide {
+    width: 1440px;
+    margin: auto;
+}
+/*-----------Slider------------*/
+
+/*-----------Detalhes do Curso------------*/
+
+.Curso-detalhes {
+    width: 1440px;
+    margin: auto;
+    background-color: var(--cor3);
+}
+
+.texto {
+    padding: 27px 27px 0px 27px;
+    color: var(--cor8);
+}
+
+.texto h3 {
+    font-size: 32px;
+}
+
+.texto h1 {
+    font-size: 45px;
+}
+
+.informacao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes {
+    padding: 27px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo {
+    background-color: var(--cor4);
+    width: 318px;
+    height: 202px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.titulo h3{
+    font-size: 32px;
+    color: var(--cor8);
+    padding: 25px;
+}
+
+.duracao {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.duracao h1{
+    color: var(--cor8);
+    font-size: 40px;
+    padding: 0 40px;
+}
+
+.modelo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.modelo h1{
+    color: var(--cor8);
+    font-size: 40px;
+    padding: 0 12px;
+}
+
+.bot {
+    width: 50%;
+    text-align: center;
+}
+
+.botton button{
+    margin-top: 25px;
+    width: 326px;
+    height: 89px;
+    border-radius: 8px;
+    border-color: transparent;
+    color: var(--cor1);
+    font-size: 25px;
+    background-color: var(--cor8);
+}
+
+.descricao-curso {
+    font-size: 27px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 1414px; 
+    margin: auto;
+    color: var(--cor5);
+    background-color: var(--cor3);
+    padding: 11px 13px;
+    text-align: center;
+}
+
+.descricao-curso p {
+    text-align: justify;
+    padding: 0 20px;
+}
+
+/*-----------Fim dos Detalhes do Curso------------*/
+
+/*-----------Formulário de Contato------------*/
+
+.formulario {
+    width: 1440px;
+    height: 920px;
+    margin: auto;
+    background-color: var(--cor8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    color: var(--cor1);
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+}
+
+.form-group input {
+    height: 40px;
+}
+
+.form-group textarea {
+    height: 150px;
+    resize: none;
+}
+
+button[type="submit"] {
+    background-color: var(--cor1);
+    color: var(--cor8);
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--cor3);
+}
+
+.imagem {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+/*-----------Fim do Formulário de Contato------------*/

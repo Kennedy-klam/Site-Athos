@@ -1,0 +1,359 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');/* Fonte Nunito */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');/* Fonte Inter */
+
+:root {
+
+    /* -------------------------------------------------------------Paleta de cores------------------------------------------------------------- */
+    --cor1: #ffffff;
+    --cor2: #F7F7F7;
+    --cor3: #E6EDE7;
+    --cor4: #D9D9D9;
+    --cor5: #828282;
+    --cor6: #454545;
+    --cor7: #000000;
+    --cor8: #00A80D;
+    /* -------------------------------------------------------------Paleta de cores------------------------------------------------------------- */    
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor1);
+    overflow-x: hidden;
+}
+
+/*------------------------------------------------------------------Menu------------------------------------------------------------------*/
+header {
+    background-color: var(--cor1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+
+}
+
+.logo img {
+    height: 125px;
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+    gap: 48px;
+}
+
+.navlist a {
+    text-decoration: none;
+    color: var(--cor8);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#faleConosco a {
+    padding: 16px;
+    border-radius: 8px;
+    margin-right: 57px;
+    color: var(--cor1);
+    background-color: var(--cor8);
+}
+/*------------------------------------------------------------------Menu------------------------------------------------------------------ */
+
+/*------------------------------------------------------------------Slide-----------------------------------------------------------------*/
+.slide {
+    width: 100vw;
+    height: 80vw;
+    object-fit: cover;
+}
+/*------------------------------------------------------------------Slide-----------------------------------------------------------------*/
+
+/*---------------------------------------------------------------Quem Somos---------------------------------------------------------------*/
+.imgFundoQS{
+    padding-top: 16px;
+    margin: auto;
+    width: 1440px;
+    height: 422px;
+    background-color: var(--cor2);
+    background-image: url(imagens/transparente.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    margin-top: -6px;
+    padding: 5px 0px;
+}
+
+#quemSomos{
+    width: 1440px;
+    height: 422px;
+    background-color: #f7f7f778;/* Adiciona a transparencia a logo da Athos */
+    text-align: center;
+}
+
+
+#quemSomos h2 {
+    font-size: 45px;
+    color: var(--cor8);
+}
+
+#quemSomos p {
+    text-align: justify;
+    width: 1344px;
+    padding: 20px;
+    color: var(--cor5);
+    line-height: 150%;
+    font-size: 27px;
+}
+/*---------------------------------------------------------------Quem Somos---------------------------------------------------------------*/
+
+/* -------------------------------------------------------------Ensino no Athos------------------------------------------------------------ */
+.educacao {
+    background-color: var(--cor2);
+    width: 1440px;
+    margin: auto;
+    padding: 20px 0; /* Adiciona espaçamento interno */
+}
+
+.educacao h2 {
+    font-size: 45px;
+    color: var(--cor8);
+    text-align: right;
+    margin: 70px 190px -80px; /* Ajusta margem superior e inferior */
+}
+
+.educacao-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.educacao-image {
+    height: 30%;
+    width: 45%;
+    margin-left: 50px;
+}
+
+.educacao-text {
+    flex: 1;
+    text-align: left;
+    margin-left: 90px; /* Ajusta a margem esquerda para alinhamento */
+    margin-top: 60px;
+}
+
+.educacao-text p {
+    margin: 30px 0;
+    color: var(--cor5);
+    font-size: 24px;
+    line-height: 1.6;
+}
+
+.educacao-text p strong {
+    color: var(--cor8);
+}
+/* -------------------------------------------------------------Ensino no Athos------------------------------------------------------------ */
+
+/* -------------------------------------------------------------Cursos da Athos------------------------------------------------------------ */
+.cursos {
+    max-width: 1440px;
+    min-width: 1440px;
+    margin: auto;
+    text-align: center;
+    background-color: var(--cor3);
+}
+
+h1 {
+    color: var(--cor8);
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: var(--cor5);
+    line-height: 1.6;
+    font-size: 27px;
+    margin-bottom: 35px;
+}
+
+.buttons-ca{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.buttons-ca button{
+    background-color: var(--cor8);
+    color: var(--cor1);
+    border-radius: 8px;
+    padding: 16px;
+    width: 252px;
+    height: 126px;
+    text-align: center;
+    font-size: 29px;
+    cursor: pointer;
+    border-color: transparent;
+    margin-top: 30px;
+    margin-bottom: 69px;
+}
+
+/* -------------------------------------------------------------Cursos da Athos------------------------------------------------------------ */
+
+/* ----------------------------------------------------------------Parceiros--------------------------------------------------------------- */
+.parceiros-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    margin: auto;
+    height: auto;
+    background-color: var(--cor3);
+}
+/* ----------------------------------------------------------------Parceiros--------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------Contact Form-------------------------------------------------------------- */
+.contactForm {
+    max-width: 1440px;
+    height: 920px;
+    margin: auto;
+    background-color: var(--cor8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    color: var(--cor1);
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+}
+
+.form-group input {
+    height: 40px;
+}
+
+.form-group textarea {
+    height: 150px;
+    resize: none;
+}
+
+button[type="submit"] {
+    background-color: var(--cor1);
+    color: var(--cor8);
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--cor3);
+}
+
+.image-container {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+/* ---------------------------------------------------------------Contact Form-------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------Footer----------------------------------------------------------------- */
+.navigation{
+    background-color: var(--cor1);
+    width: 1440px;
+    height: 264px;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.logo-bo{
+    margin-left: 54px;
+    margin-top: 54px;
+}
+
+.socialIcons{
+    margin-top: 26px;
+    margin-left: 80px;
+    list-style: none;
+    display: flex;
+}
+
+.footer-colu {
+    margin-right: 110px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    list-style: none;
+    
+}
+
+.footer-colu h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.footer-colu ul {
+    list-style: none;
+}
+
+.footer-colu ul li{
+    margin-bottom: 24px;
+}
+
+.footer-colu ul li a {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: var(--cor7);
+    text-decoration: none;
+}
+
+.footer-bo{
+    background-color: var(--cor4);
+    width: 1440px;
+    height: 47px;
+    margin: auto;
+    text-align: center;
+}
+
+.footer-bo > p {
+    padding-top: 12px;
+    font-size: 16px;
+    color: var(--cor8);
+}
+/* ------------------------------------------------------------------Footer----------------------------------------------------------------- */
